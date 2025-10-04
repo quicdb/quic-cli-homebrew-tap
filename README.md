@@ -7,7 +7,7 @@ Official Homebrew tap for the QuicDB CLI.
 ### macOS and Linux
 
 ```bash
-brew tap quicdb/quic-cli-homebrew-tap
+brew tap quicdb/tap
 brew install quic
 ```
 
