@@ -1,25 +1,25 @@
 class Quic < Formula
   desc "QuicDB CLI for managing database branches"
   homepage "https://quicdb.com"
-  version "1.0.1"
+  version "1.0.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/quicdb/quic-cli/releases/download/v1.0.1/quic-darwin-arm64"
-      sha256 "52bcf71df55e25140a05a6fbafb9215486c30ac3f47243be5e58a10e16e72de6"
+      url "https://github.com/quicdb/quic-cli/releases/download/v1.0.2/quic-darwin-arm64"
+      sha256 "71fca7c1c6ab88b87c25c2d1d1d7c6f538bc6d596fd754677c95a4f81ec6ba96"
     else
-      url "https://github.com/quicdb/quic-cli/releases/download/v1.0.1/quic-darwin-amd64"
-      sha256 "19ede3b837315c1d9509fccccea8cceb876f2076edbf445a039538c7c6da79c0"
+      url "https://github.com/quicdb/quic-cli/releases/download/v1.0.2/quic-darwin-amd64"
+      sha256 "a991e1fbc8b545639e3df099da585a3900b453a4349d9950f85b2631ad5dad57"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/quicdb/quic-cli/releases/download/v1.0.1/quic-linux-arm64"
-      sha256 "d58310993651f8d24b47ed90a37a3faf6d58a0bfb2732e92650fe86d6ed7c0d5"
+      url "https://github.com/quicdb/quic-cli/releases/download/v1.0.2/quic-linux-arm64"
+      sha256 "876878d3d3fb46549a5afd949692c997d7d36898e4c5f0b8c3d5dcd19ff217d0"
     else
-      url "https://github.com/quicdb/quic-cli/releases/download/v1.0.1/quic-linux-amd64"
-      sha256 "eff69e1985912866720b08fc917d3e9b260eb6146dc873628310877b8bf6a462"
+      url "https://github.com/quicdb/quic-cli/releases/download/v1.0.2/quic-linux-amd64"
+      sha256 "0790f886387839d99fef26930435b377f43f98f3cd1da1baf2ec089eeea83169"
     end
   end
 
